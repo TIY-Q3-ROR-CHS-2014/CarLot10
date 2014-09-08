@@ -55,3 +55,6 @@ end
 # group :production do
 #   gem 'pg'
 # end
+
+# heroku config
+# heroku config:add DATABASE_URL='url here'
