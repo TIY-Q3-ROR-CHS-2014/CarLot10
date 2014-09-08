@@ -49,3 +49,9 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'database_cleaner'
 end
+
+# After this:
+# $ bundle install --without production
+group :production do
+  gem 'pg'
+end
