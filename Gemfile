@@ -52,6 +52,6 @@ end
 
 # After this:
 # $ bundle install --without production
-group :production do
-  gem 'pg'
-end
+# group :production do
+#   gem 'pg'
+# end
